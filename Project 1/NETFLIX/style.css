@@ -1,0 +1,112 @@
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+
+    }
+
+    body{
+      
+     background-image:url("background.jpg ")  ;
+     
+     
+      
+      height: 100vh;
+   
+      font-family: sans-serif;
+    }
+     #darkshadow{
+      background-color: rgba(0, 0, 0,.80);
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+       
+     }
+    #formcontainer{
+        background-color: rgba(0, 0, 0,.80);
+        height: 95vh;
+        width: 30vw;
+        padding: 5rem 2rem;
+        color:#8c8c8c;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+    }
+
+    #formcontainer> h1{
+        color: white;
+
+    }
+    #loginform{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        height:50%;
+   
+    }
+     #inputform > input {
+        padding: 0.9rem 1rem;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        
+     }
+     #passwordfield{
+        margin-bottom: 1rem;
+         height: 3rem;
+         border: none;
+         border-radius:0.3em ;
+         background-color: #333;
+        
+     }
+     input[type="submit"]{
+        background-color: red !important;
+        color: white;
+        font-weight: bold;
+        border-radius: 0.3rem;
+        margin-top: 1.5rem;
+
+     }
+     #formbottom{
+        display: flex;
+        justify-content: space-between;
+     }
+     a {
+        text-decoration: none;
+     }
+     a:hover{
+        text-decoration: underline;
+     }
+     #footer{
+        height: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+      #emailsize{
+         height: 3rem;
+         border: none;
+         border-radius: 0.3em;
+         margin-bottom:0.5rem;
+         background-color: #333;
+      }
+    #submitsize{
+      height: 2rem;
+      border:none ;
+      height: 3rem;
+      cursor: pointer;
+   
+        
+
+    }
+    
+      
+    
+    
+    
